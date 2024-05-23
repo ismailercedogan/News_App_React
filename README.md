@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Galatasaray News Application
 
-## Getting Started
+## 1. Explanation
 
-First, run the development server:
+The Galatasaray News Application is a web application designed to provide the latest news and match schedules related to Galatasaray sports club. The application allows users to register, log in, edit their profiles, and save their favorite articles for easy access later. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Features
+- Latest news updates
+- Match schedules 
+- User authentication (sign up, log in, log out)
+- Profile management
+- Save and view articles
+- Delete saved articles
+  
+## 2. Usage Scenarios
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Home Page
+The home page displays the latest news articles related to Galatasaray.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![Home Page](./screenshots\homePage.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Match Schedule Page
+The match schedule page shows the upcoming matches, including date, time, venue, and opponent.
 
-## Learn More
+![Match Schedule Page](./screenshots\match_schedule.png)
 
-To learn more about Next.js, take a look at the following resources:
+### User Profile Page
+The user profile page allows users to view and edit their profile information, including username, email, and phone number. Users can also view their saved articles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### Login Form
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Login Form](./screenshots/loginForm.png)
 
-## Deploy on Vercel
+#### Signup Form
+![Signup Form](./screenshots/signupForm.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### User Profile 
+![User Profile](./screenshots/user_profile.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The Users will be able to see their profile after a succesful login or signup. 
+### Edit Profile
+![Edit Profile](./screenshots/edit_profile.png)
+
+
+## 4. Libraries 
+
+- **React**: A JavaScript library for building user interfaces.
+- **Next.js**: A React framework for server-side rendering and generating static websites.
+- **Bootstrap**: A CSS framework for developing responsive and mobile-first websites.
+- **Reactstrap**: React components for Bootstrap.
+- **JSON Server**: A full fake REST API for testing and prototyping.
+
+## 5. Instructions for Running the Project
+
+### Prerequisites
+- Node.js (version 14.x or higher)
+- npm (version 6.x or higher)
+
+### Steps to Run the Project
+
+1. Download and Extract the Project Zip File
+2. Navigate to the Project Directory
+   - cd path/to/extracted/project
+3. Install Dependencies
+   - npm install
+4. Start the JSON Server and Development Server
+    - npm run all
+
+## Upcoming Updates
+
+- Live Score Page 
+- Higlights Page
+- Social Page
+
+These pages are currently under development and will be available in future updates.
