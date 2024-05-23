@@ -17,12 +17,12 @@ The Galatasaray News Application is a web application designed to provide the la
 ### Home Page
 The home page displays the latest news articles related to Galatasaray.
 
-![Home Page](./screenshots\homePage.png)
+![Home Page](./screenshots/homePage.png)
 
 ### Match Schedule Page
 The match schedule page shows the upcoming matches, including date, time, venue, and opponent.
 
-![Match Schedule Page](./screenshots\match_schedule.png)
+![Match Schedule Page](./screenshots/match_schedule.png)
 
 ### User Profile Page
 The user profile page allows users to view and edit their profile information, including username, email, and phone number. Users can also view their saved articles.
