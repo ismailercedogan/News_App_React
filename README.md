@@ -58,7 +58,7 @@ The Users will be able to see their profile after a succesful login or signup.
 
 ### Steps to Run the Project
 
-1. Download and Extract the Project Zip File
+1. Download and Extract the Project Zip File or Clone the repository: git clone https://github.com/ismailercedogan/News_App_React.git
 2. Navigate to the Project Directory
    - cd path/to/extracted/project
 3. Install Dependencies
